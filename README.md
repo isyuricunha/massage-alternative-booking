@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hey,
 
-## Getting Started
+This project is a scheduling site/system based on opening and closing hours. For example, if a business opens at 8:00 AM and closes at 6:00 PM, customers can only schedule appointments within this timeframe.
 
-First, run the development server:
+If a customer schedules an appointment at 9:00 AM, the next available slot will be from 9:30 AM onwards, but you can change this. Keep in mind your service capacity, as allowing multiple appointments at the same time could result in a congestion of your services.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This project runs on Next 13, with ChakraUI and Firebase under the hood. Next was chosen for its ease of use and extensive compatibility (and packages). ChakraUI was selected for its completeness, and Firebase for its low or no cost, depending on the size of your business and the monthly entries in the database. On average, for up to 5,000 monthly appointments, there is no cost, meaning Firebase offers a robust and comprehensive free package.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The portal has two sections. The first is the user area for scheduling, which does not require a login. The second is for the service provider, such as the business/employee, to log in and see what has been scheduled and when.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can also schedule to send and receive emails when each action is performed, for example, a few minutes before an appointment, the customer and you can receive a reminder or validation, as well as notifications for cancellations or new appointments.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Here's an image of the portal:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[![https://imgur.com/a/u7lm97j]]
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Even though the project is archived, all its functions continue to work. You just need to configure it for your Firebase project within the Firebase.js file.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+See you later.
