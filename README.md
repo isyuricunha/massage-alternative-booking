@@ -10,6 +10,8 @@ The portal has two sections. The first is the user area for scheduling, which do
 
 You can also schedule to send and receive emails when each action is performed, for example, a few minutes before an appointment, the customer and you can receive a reminder or validation, as well as notifications for cancellations or new appointments.
 
+(You can configure all things)
+
 Here's an image of the portal:
 
 ![Login Screen](https://i.imgur.com/skd9cDW.png)
