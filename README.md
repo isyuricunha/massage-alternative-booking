@@ -12,7 +12,7 @@ You can also schedule to send and receive emails when each action is performed, 
 
 Here's an image of the portal:
 
-[!(https://imgur.com/a/u7lm97j)]
+![Login Screen](https://imgur.com/a/u7lm97j)
 
 Even though the project is archived, all its functions continue to work. You just need to configure it for your Firebase project within the Firebase.js file.
 
